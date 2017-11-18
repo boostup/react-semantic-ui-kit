@@ -1,0 +1,34 @@
+{
+  "name": "@source360/react-semantic-ui-kit",
+  "version": "0.1.0",
+  "description": "A responsive UI kit for the Web based on create-react-app & semantic-ui-react.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boostup/react-semantic-ui-kit.git"
+  },
+  "keywords": [
+    "create-react-app",
+    "semantic-ui-react",
+    "react",
+    "redux",
+    "ui-kit"
+  ],
+  "author": "Frederic Beauvois <boostup@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boostup/react-semantic-ui-kit/issues"
+  },
+  "homepage": "https://github.com/boostup/react-semantic-ui-kit#readme",
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }  
+}
