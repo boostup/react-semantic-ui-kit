@@ -2,12 +2,17 @@
 
 A responsive UI kit for the Web based on [Create React App](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) & [Semantic UI React](https://react.semantic-ui.com/introduction).  
 
+## Current status
+
+As it stands today, this kit consists of around a dozen UI components (please refer to the [_Roadmap_](https://github.com/boostup/react-semantic-ui-kit#roadmap) section). Approximately a third of them are at a "new born" stage.  Meaning, there is no error handling or edge case management. However, given the [relatively painless learning curve with React](https://hackernoon.com/react-vs-polymer-83b4375a5a42), and since we'll BE building our components on top of very mature and stable libraries, I don't anticipate a lot work on those aspects.  The rest of the components are yet to be implemented.
+
+
 ## Vision
-The idea is to build a UI kit which provides support to chrome/blink on desktop and touch devices as the first global milestone. Then, React Native as the second one.  However, I personally am only just starting with React, so I know next to nothing about the specifics of React Native.  It does need to be taken into account since the beginning though.
+The idea is to build a UI kit which provides support to chrome/blink on desktop and touch devices as the first global milestone. Then, React Native as the second one.  However, I personally am only just starting with React, so I know next to nothing about the specifics of React Native.  It does need to be taken into account since the beginning of this project though.
 
-The vision is to compose a UI Kit which allows for quick development of prototypes or apps for personal use mainly.  This doesn't feel so far fetched given [the rich component library](https://react.semantic-ui.com/introduction) that Semantic UI has brought to the community.  
+The vision is to compose a UI Kit which allows for quick development of prototypes to show client, create POCs or apps for personal use mainly.  This doesn't feel so far fetched given [the rich component library](https://react.semantic-ui.com/introduction) that Semantic UI has brought to the community.  
 
-What about you?  Like me, don't you need a quick and performant UI kit solution to develop all the the app ideas you've accumulated over the years?  So many APIs are available, there are so many things we can create nowadays.
+What about you?  Like me, don't you need a quick and performant UI kit solution to develop all the app ideas you've accumulated over the years?  So many APIs are available; so many apps we can build nowadays!
 
 ## Composition vs Inheritance
 This project shouldn't be extremely long or difficult.  The tasks here consist in developping new components on top of existing ones found in the Semantic UI React component library.  Most of the work should be achievable mainly through composition.
@@ -18,17 +23,8 @@ _[Please read section 'composition vs inheritance' from the React documentation.
 ## Motivations
 
  - Like any freelancer, I need a comprehensive UI component library to use on side projects.
- - [React Bootstrap](https://react-bootstrap.github.io/) and [Material Design](https://github.com/callemall/material-ui) are really not mature enough compared to Semantic UI's kit.  A fellow developer has recommanded Semantic UI React instead, and I fell in love at first sight.  
+ - [React Bootstrap](https://react-bootstrap.github.io/) and [Material Design for React](https://github.com/callemall/material-ui) are really not mature enough compared to Semantic UI's kit.  A fellow developer has recommanded Semantic UI React instead, and I fell in love at first sight.  
  - I want to get familiar with React and Semantic UI React by developping this UI kit.
-
-
-
-## Current status
-
-Out of the 12 planned components, _see the Components Roadmap section_, approximately a third of them are at a "new born" stage.  Meaning, there is no error handling or edge case management.  However, we're building on top of very mature and stable libraries here, so again, I don't anticipate a lot work on those aspects.  
-
-What do you think?
-
 
 
 ---
@@ -40,6 +36,12 @@ What do you think?
 ```
 
 ---
+
+
+## Usage
+
+Inside their respective directory, every UI component includes a  set of ```*.md``` files.
+Please refer to the _[_Component Catalog_](https://github.com/boostup/react-semantic-ui-kit#component-catalog)_ section.
 
 
 
@@ -119,13 +121,6 @@ According to [node.green](http://node.green/), versions 6.5.0 to 6.12.0 are full
 
 _Please refer to the **package.json** file for a complete list._
 
-
-
-## Usage
-
-Inside their respective directory, every UI component includes a  set of ```*.md``` files.
-_Please refer to the **_Components Roadmap_** table._
-
 ---
 
 ## Roadmap
@@ -160,13 +155,13 @@ SwipeCheckboxSelection | swipecheckboxselection/ | **tbd** | prototype [on Codep
 #### Component Catalog
 
 Create a catalog to display the UI components using Catalog.style.  UI components will be rendered and interactive.  
-As time goes by, this catalog should replace the ```doc.md``` and ```examples.md``` found inside a UI component directory.  However, if a component is not yet in the catalog, than at least these files should be present in the component directory so as to provide some useful information to end users.
+As time goes by, this catalog should replace the planned ```doc.md``` and ```examples.md``` found inside a UI component directory.  However, if a component is not yet in the catalog, than at least these files should be present in the component's directory so as to provide usage information to coders who wish to use it in the early stages.
 
  - https://www.catalog.style/try
  - https://docs.catalog.style/installation/module
  - https://docs.catalog.style/configuration/imports
 
-
+---
 
 ### Publish package to NPM registry
 
@@ -186,7 +181,7 @@ Polymer is to future web components what ES7 is to Javascript.  I hear Polymer c
   - [ ] [polymer with react - Google Search](https://www.google.fr/search?ei=7gYPWunJMefFgAbB_L3YCQ&q=polymer+with+react&oq=polymer+with+react&gs_l=psy-ab.3..0j0i30k1l2j0i5i30k1j0i8i30k1l5.215113.216899.0.217469.3.3.0.0.0.0.114.297.2j1.3.0....0...1.1.64.psy-ab..0.3.295...0i7i30k1j0i13k1j0i13i30k1j0i13i5i30k1.0.A_ywycXqhFs)
   - [ ] [jscissr/react-polymer: Use Polymer elements in React](https://github.com/jscissr/react-polymer)
   - [ ] [Polymer vs. React](https://www.upwork.com/hiring/development/polymer-vs-react/)
-  - [ ] [React Vs Polymer – Hacker Noon](https://hackernoon.com/react-vs-polymer-83b4375a5a42)
+  - [x] (read) [React Vs Polymer – Hacker Noon](https://hackernoon.com/react-vs-polymer-83b4375a5a42)
 
 
 
