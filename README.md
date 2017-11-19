@@ -26,7 +26,7 @@ _[Please read section 'composition vs inheritance' from the React documentation.
 
  - A comprehensive, stable UI component library that goes beyond standard components.
  - [React Bootstrap](https://react-bootstrap.github.io/) and [Material Design for React](https://github.com/callemall/material-ui) are really not mature enough compared to Semantic UI's kit.  A fellow developer has recommanded Semantic UI React instead, and I fell in love at first sight.
- - [RMWC - React wrapper for Material Design (Web) Components](https://jamesmfriedman.github.io/rmwc/) is an exiting project I just found out about.  A second UI kit based on RMWC implementing the same set of UI components is being considered. 
+ - [Addendum] [RMWC - React wrapper for Material Design (Web) Components](https://jamesmfriedman.github.io/rmwc/) is an exiting project I just found out about.  Another UI kit called 'react-rmwc-ui-kit', based on RMWC could implement the same set of UI components as 'react-semantic-ui-kit'. 
  - I want to get familiar with React, Semantic UI React, and RMWC by developing this UI kit.
 
 
@@ -43,13 +43,15 @@ _[Please read section 'composition vs inheritance' from the React documentation.
 
 ## Usage
 
-As time goes by, an [Interactive Component Catalog](https://github.com/boostup/react-semantic-ui-kit#interactive-component-catalog) the api documentation should be moved to the catalog.  However, if a component is not included in the catalog, then its api documentation shall at least be present inside its respective directory to provide usage and demo information to coders who wish to use it early.
+As time goes on, the UI components api documentation should be included in the [Interactive Component Catalog](https://github.com/boostup/react-semantic-ui-kit#interactive-component-catalog).  However, if a component is not listed in the catalog yet, then its api documentation shall remain inside its respective directory to provide usage and demo information to coders who wish to use it early.
 
 ---
 
 ## Demo site
 
-_This section might disappear in favor of the the [Interactive Component Catalog](https://github.com/boostup/react-semantic-ui-kit#interactive-component-catalog)_. However, the demo site contains implemented features which help put real working apps together really quickly.
+_This section might disappear in favor of the the [Interactive Component Catalog](https://github.com/boostup/react-semantic-ui-kit#interactive-component-catalog)_. However, the demo site contains [implemented features](https://github.com/boostup/react-semantic-ui-kit#features) which help put real working apps together with performance in mind, really quickly.  I might just create a new repo git 'react-starter-app' which would include the npm package '@source360/react-semantic-ui-kit' or '@source360/'react-rmwc-ui-kit'.
+
+FYI: [@source360](https://www.npmjs.com/org/source360) is an NPM org I just created.
 
 ### NPM Scripts
 
@@ -131,9 +133,9 @@ Please do get in touch if you're interested in participating: boostup@gmail.com
 ## Todos
 
  - Get familiar with [Catalog.style](https://www.catalog.style/try):
-     - https://www.catalog.style/try
-     - https://docs.catalog.style/installation/module
-     - https://docs.catalog.style/configuration/imports 
+     - [ ] https://www.catalog.style/try
+     - [ ] https://docs.catalog.style/installation/module
+     - [ ] https://docs.catalog.style/configuration/imports 
  
  - Studies on existing UI Kits:
      - [x] (read) [React Vs Polymer – Hacker Noon](https://hackernoon.com/react-vs-polymer-83b4375a5a42)
@@ -175,15 +177,17 @@ SwipeCheckboxSelection | swipecheckboxselection/ | **tbd** | prototype [on Codep
 **[tbd]** _To be developped_
 
 ### Documentation
- - Write the requirements for each component
- - Write the ```api.md```  for each component
+ - [ ] Write the requirements for each component
+ - [ ] Write the ```api.md```  for each component
  
 ### Testing
- - Write tests
+ - [ ] Write tests
  
 ### Continuous Integration
- - Integrate this repo with Travis
+ - [ ] Integrate this repo with Travis
  
 ### Interactive Component Catalog
- - Create a catalog to display the UI components using [Catalog.style](https://www.catalog.style/try) where the UI components will be interactive and documented.  
- - [Publish package to NPM registry ](https://codeburst.io/how-to-create-and-publish-your-first-node-js-module-444e7585b738)
+ - [ ] Create a catalog to display the UI components using [Catalog.style](https://www.catalog.style/try) where the UI components will be interactive and documented. 
+ 
+### NPM Registry
+ - [ ] [Publish package to NPM registry ](https://codeburst.io/how-to-create-and-publish-your-first-node-js-module-444e7585b738)
