@@ -10,7 +10,7 @@ As it stands today, this kit will consist of around a dozen UI components.  Plea
 ## Vision
 The idea is to build a UI kit which provides support to chrome/blink on desktop and touch devices as **the first global milestone**. Then, React Native as **the second one**.  However, I personally am only just starting with React, so I know next to nothing about the specifics of React Native.  It does need to be taken into account since the beginning of this project though.
 
-The vision is to compose a UI Kit which allows for rapid prototyping to blow your (potential) clients' mind or knock your boss' socks off on how quickly you can put something together.  
+The vision is to compose a UI Kit which allows for rapid prototyping to blow your (potential) clients' mind or knock your boss' socks off on how quickly you can put something together that is production-ready.  
 
 This UI Kit could simply help you build POCs or apps for your own personal use quickly, especially when coupled with the [demo site features](https://github.com/boostup/react-semantic-ui-kit#features) which are based on [Create React App](https://github.com/boostup/react-semantic-ui-kit) and [the most common pakage dependencies](https://github.com/boostup/react-semantic-ui-kit#main-dependencies) when developing with React.
   
@@ -49,9 +49,11 @@ As time goes on, the UI components api documentation should be included in the [
 
 ## Demo site
 
-_This section might disappear in favor of the the [Interactive Component Catalog](https://github.com/boostup/react-semantic-ui-kit#interactive-component-catalog)_. However, the demo site contains [implemented features](https://github.com/boostup/react-semantic-ui-kit#features) which help put real working apps together with performance in mind, really quickly.  I might just create a new repo git 'react-starter-app' which would include the npm package '@source360/react-semantic-ui-kit' or '@source360/'react-rmwc-ui-kit'.
+_This section might disappear in favor of the the [Interactive Component Catalog](https://github.com/boostup/react-semantic-ui-kit#interactive-component-catalog)_. However, the demo site contains [implemented features](https://github.com/boostup/react-semantic-ui-kit#features) which help put real working apps together with performance in mind, really quickly.  With this boilerplate, one can concentrate on the [CRP](https://www.airpair.com/javascript/posts/the-tipping-point-of-clientside-performance) ([Critical Rendering Path](https://varvy.com/pagespeed/critical-render-path.html)) since chunks can be loaded thanks to the 'react-loadable' package.
 
-FYI: [@source360](https://www.npmjs.com/org/source360) is an NPM org I just created.
+[Addendum] I might just create a new git repo to his host this demo site, which would include the npm package either for the UI kit based on Semantic UI React or React wrapper for Material Design (Web) Components
+
+
 
 ### NPM Scripts
 
@@ -85,7 +87,7 @@ See the section about [deployment](https://github.com/facebookincubator/create-r
 
 ### Features
 
-These are the features of the demo site.  It's purpose is to show off the components in action.
+These are the features of the demo site.
 
 - [Webpack](https://webpack.github.io/docs/)
 - Live reload of code (CSS/JS/JSX)
@@ -190,4 +192,12 @@ SwipeCheckboxSelection | swipecheckboxselection/ | **tbd** | prototype [on Codep
  - [ ] Create a catalog to display the UI components using [Catalog.style](https://www.catalog.style/try) where the UI components will be interactive and documented. 
  
 ### NPM Registry
- - [ ] [Publish package to NPM registry ](https://codeburst.io/how-to-create-and-publish-your-first-node-js-module-444e7585b738)
+
+[Publish package to NPM registry ](https://codeburst.io/how-to-create-and-publish-your-first-node-js-module-444e7585b738)
+
+ - [x] create NPM org called [@source360](https://www.npmjs.com/org/source360)
+ - [ ] '@source360/react-semantic-ui-kit'
+ - [ ] '@source360/'react-rmwc-ui-kit':  this part of the project is optional; let's concentrate on the implementation of 'react-semantic-ui-kit' for now
+ 
+### Create React App Starter
+ - [ ] Create a new repo 'create-react-app-starter' to host this code which currently 'resides' in a private Bitbucket repo of mine.  [Addendum] When creating a new app based on this boilerplate, it is more useful for it to be a git repo rather than an NPM package.
