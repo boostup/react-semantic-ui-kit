@@ -4,13 +4,15 @@ A responsive UI kit for the Web based on [Semantic UI for React](https://react.s
 
 ## Current status
 
-As it stands today, this kit will consist of around a dozen UI components.  Please refer to the [_Component_](https://github.com/boostup/react-semantic-ui-kit#components) section of the [_Roadmap_](https://github.com/boostup/react-semantic-ui-kit#roadmap). Approximately a third of them are at a "new born" stage.  Meaning, there is no error handling or edge case management. However, given the [relatively painless learning curve with React](https://hackernoon.com/react-vs-polymer-83b4375a5a42), and since we'll be building our components on top of very mature and stable UI library, I don't anticipate a lot work on those aspects.  The rest of the components are yet to be implemented.
+As it stands today, this kit will consist of around a dozen UI components.  Please refer to the [_Components_](https://github.com/boostup/react-semantic-ui-kit#components) section of the [_Roadmap_](https://github.com/boostup/react-semantic-ui-kit#roadmap). Approximately a third of them are at a "new born" stage.  Meaning, there is no error handling or edge case management. However, given the [relatively painless learning curve with React](https://hackernoon.com/react-vs-polymer-83b4375a5a42), and since we'll be building our components on top of very mature and stable UI library, I don't anticipate a lot work on those aspects.  The rest of the components are yet to be implemented.
 
 
 ## Vision
 The idea is to build a UI kit which provides support to chrome/blink on desktop and touch devices as **the first global milestone**. Then, React Native as **the second one**.  However, I personally am only just starting with React, so I know next to nothing about the specifics of React Native.  It does need to be taken into account since the beginning of this project though.
 
-The vision is to compose a UI Kit which allows for rapid prototyping to blow your (potential) clients' mind or knock your boss' socks off on how quickly you can put something together.  This UI Kit could also simply help you build apps for your own personal use or for building POCs quickly, especially when coupled with the [demo site features](https://github.com/boostup/react-semantic-ui-kit#features) which are based on Create React App and [other dependencies](https://github.com/boostup/react-semantic-ui-kit#main dependencies).
+The vision is to compose a UI Kit which allows for rapid prototyping to blow your (potential) clients' mind or knock your boss' socks off on how quickly you can put something together.  
+
+This UI Kit could simply help you build POCs or apps for your own personal use quickly, especially when coupled with the [demo site features](https://github.com/boostup/react-semantic-ui-kit#features) which are based on [Create React App](https://github.com/boostup/react-semantic-ui-kit) and [the most common pakage dependencies](https://github.com/boostup/react-semantic-ui-kit#main-dependencies) when developing with React.
   
 This doesn't feel so far fetched given [the rich component library](https://react.semantic-ui.com/introduction) that Semantic UI has brought to the community.
 
@@ -42,13 +44,17 @@ _[Please read section 'composition vs inheritance' from the React documentation.
 ## Usage
 
 Inside their respective directory, every UI component includes an ```api.md``` file.  
-As time goes by, an [interactive components catalog](https://github.com/boostup/react-semantic-ui-kit#todos) should replace them.  However, if a component is not yet in the catalog, then at least its api file should be present to provide usage and demo information to coders who wish to use it early.
+As time goes by, an [Interactive Component Catalog](https://github.com/boostup/react-semantic-ui-kit#interactive-component-catalog) should replace them.  However, if a component is not yet in the catalog, then at least its api file should be present to provide usage and demo information to coders who wish to use it early.
 
+---
 
+## Demo site
 
-## NPM Scripts
+_This section might disappear in favor of the the [Interactive Component Catalog](https://github.com/boostup/react-semantic-ui-kit#interactive-component-catalog)_. However, the demo site contains implemented features which help put real working apps together really quickly.
 
-### npm start
+### NPM Scripts
+
+#### npm start
 
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
@@ -58,14 +64,14 @@ You will also see any lint errors in the console.
 
 
 
-### npm test
+#### npm test
 
 Launches the test runner in the interactive watch mode.
 See the section about [running tests](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests) for more information.
 
 
 
-### npm run build
+#### npm run build
 
 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -74,13 +80,6 @@ The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment) for more information.
-
-
----
-
-## Demo site
-
-_This section might disappear in favor of the the [interactive components catalog](https://github.com/boostup/react-semantic-ui-kit#todos)_. 
 
 
 ### Features
@@ -177,8 +176,15 @@ SwipeCheckboxSelection | swipecheckboxselection/ | **tbd** | prototype [on Codep
 **[tbd]** _To be developped_
 
 ### Documentation
-
  - Write the requirements for each component
  - Write the ```api.md```  for each component
- - Create a catalog to display the UI components using [Catalog.style](https://www.catalog.style/try) where UI components will be rendered and interactive.  
+ 
+### Testing
+ - Write tests
+ 
+### Continuous Integration
+ - Integrate this repo with Travis
+ 
+### Interactive Component Catalog
+ - Create a catalog to display the UI components using [Catalog.style](https://www.catalog.style/try) where the UI components will be interactive and documented.  
  - [Publish package to NPM registry ](https://codeburst.io/how-to-create-and-publish-your-first-node-js-module-444e7585b738)
