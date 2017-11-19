@@ -1,6 +1,6 @@
 # React Semantic UI Kit
 
-A responsive UI kit for the Web based on [Semantic UI for React](https://react.semantic-ui.com/introduction).  
+A responsive UI kit based on [Semantic UI for React](https://react.semantic-ui.com/introduction).  
 
 ## Current status
 
