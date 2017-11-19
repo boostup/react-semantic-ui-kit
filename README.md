@@ -4,7 +4,7 @@ A responsive UI kit based on [Semantic UI for React](https://react.semantic-ui.c
 
 ## Current status
 
-As it stands today, this kit will consist of around a dozen UI components.  Please refer to the [_Components_](https://github.com/boostup/react-semantic-ui-kit#components) section of the [_Roadmap_](https://github.com/boostup/react-semantic-ui-kit#roadmap). Approximately a third of them are at a "new born" stage.  Meaning, there is no error handling or edge case management. However, given the [relatively painless learning curve with React](https://hackernoon.com/react-vs-polymer-83b4375a5a42), and since we'll be building our components on top of very mature and stable UI library, I don't anticipate a lot work on those aspects.  The rest of the components are yet to be implemented.
+As it stands today, this kit will consist of around a dozen UI components.  Please refer to the [_Components_](https://github.com/boostup/react-semantic-ui-kit#components) section of the [_Roadmap_](https://github.com/boostup/react-semantic-ui-kit#roadmap). Approximately a third of them are at a "new born" stage.  Meaning, there is no error handling or edge case management. However, given the [relatively painless learning curve with React](https://hackernoon.com/react-vs-polymer-83b4375a5a42), and since we'll be building our components on top of very mature and stable UI library, I don't anticipate a lot of work on those aspects.  The rest of the components are yet to be implemented.
 
 
 ## Vision
@@ -17,7 +17,7 @@ This UI Kit could simply help you build POCs or apps for your own personal use q
 This doesn't feel so far fetched given [the rich component library](https://react.semantic-ui.com/introduction) that Semantic UI has brought to the community.
 
 ## Composition vs Inheritance
-This project shouldn't be extremely long or difficult.  The tasks here consist in developping new components on top of existing ones found in the Semantic UI React component library.  Most of the work should be achievable mainly through composition.
+This project shouldn't be extremely long or difficult.  The tasks here consist in developing new components on top of existing ones found in the Semantic UI React component library.  Most of the work should be achievable mainly through composition.
 _[Please read section 'composition vs inheritance' from the React documentation.](https://reactjs.org/docs/composition-vs-inheritance.html)_
 
 
@@ -26,8 +26,8 @@ _[Please read section 'composition vs inheritance' from the React documentation.
 
  - A comprehensive, stable UI component library that goes beyond standard components.
  - [React Bootstrap](https://react-bootstrap.github.io/) and [Material Design for React](https://github.com/callemall/material-ui) are really not mature enough compared to Semantic UI's kit.  A fellow developer has recommanded Semantic UI React instead, and I fell in love at first sight.
- - [RMWC - React wrapper for Material Design (Web) Components](https://jamesmfriedman.github.io/rmwc/) is an exiting project I just found out about.  A new repository to create the same components as in this project but based on RMWC this time is probably interesting to consider. 
- - I want to get familiar with React, Semantic UI React, and RMWC by developping this UI kit.
+ - [RMWC - React wrapper for Material Design (Web) Components](https://jamesmfriedman.github.io/rmwc/) is an exiting project I just found out about.  A second UI kit based on RMWC implementing the same set of UI components is being considered. 
+ - I want to get familiar with React, Semantic UI React, and RMWC by developing this UI kit.
 
 
 ---
@@ -43,8 +43,7 @@ _[Please read section 'composition vs inheritance' from the React documentation.
 
 ## Usage
 
-Inside their respective directory, every UI component includes an ```api.md``` file.  
-As time goes by, an [Interactive Component Catalog](https://github.com/boostup/react-semantic-ui-kit#interactive-component-catalog) should replace them.  However, if a component is not yet in the catalog, then at least its api file should be present to provide usage and demo information to coders who wish to use it early.
+As time goes by, an [Interactive Component Catalog](https://github.com/boostup/react-semantic-ui-kit#interactive-component-catalog) the api documentation should be moved to the catalog.  However, if a component is not included in the catalog, then its api documentation shall at least be present inside its respective directory to provide usage and demo information to coders who wish to use it early.
 
 ---
 
