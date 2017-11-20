@@ -23,17 +23,9 @@ const pages = [
     content: markdownLoader("dev-status"),
   },  
   {
-    title: "Get Started",
-    pages:[{
-      path: "/get-started/install",
-      title: "Installation",
-      content: markdownLoader("get-started/install")
-    },
-    {
-      path: "/get-started/rsuikit-starter-app",
-      title: "RSUIKit starter app",
-      content: markdownLoader("get-started/rsuikit-starter-app")
-    }],    
+    path: "/install",
+    title: "Installation",
+    content: markdownLoader("install")
   },
   {  
     title: "Components",
