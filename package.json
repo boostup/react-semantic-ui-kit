@@ -2,7 +2,7 @@
   "name": "@source360/react-semantic-ui-kit",
   "version": "0.1.0",
   "description": "A responsive UI kit for the Web based on create-react-app & semantic-ui-react.",
-  "main": "index.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/boostup/react-semantic-ui-kit.git"
@@ -23,17 +23,28 @@
     "url": "https://github.com/boostup/react-semantic-ui-kit/issues"
   },
   "homepage": "https://github.com/boostup/react-semantic-ui-kit#readme",
+  "peerDependencies": {
+    "react": "^16.1.1"
+  },
   "dependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17"
+    "semantic-ui-react": "^0.76.0",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
   },
   "scripts": {
     "postinstall": "echo 'installing documentation for UI kit' && cd docs/ && npm install",
     "start-doc": "cd docs/ && npm run catalog-start",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "webpack --watch",
+    "build": "webpack"
   }
 }
