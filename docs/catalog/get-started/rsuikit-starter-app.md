@@ -1,4 +1,8 @@
+### Installation
 
+```code
+npm install @source360/RSUIKit-app-starter --save
+```
 
 The starter app includes the RSUIKit npm package, a bunch of useful [dependencies](#main-dependencies) and a set of [features](#features) which help put real working apps together with performance in mind, really quickly.
 

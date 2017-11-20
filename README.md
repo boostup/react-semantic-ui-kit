@@ -1,14 +1,11 @@
-# React Semantic UI Kit
-
-A responsive UI kit based on [Semantic UI for React](https://react.semantic-ui.com/introduction).  
-
+# RSUIKit: React Semantic UI Kit
 
 [Please have a look at the wiki sections such as _Motivation_, _Vision_ or _Roadmap_ to get an idea as to why this repo even exists!](/wiki)
 
 ## Installation
 
 ```bash {cmd=true}
-    npm install @source360/react-semantic-ui-kit --save
+npm install @source360/react-semantic-ui-kit --save
 ```
 
 [For more information, please visit the documentation](http://localhost:4000/#/) (the doc app needs to be started, see section 'documentation').
