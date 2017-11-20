@@ -29,10 +29,11 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
+    "postinstall": "echo 'installing documentation for UI kit' && cd docs/ && npm install",
     "start-doc": "cd docs/ && npm run catalog-start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }  
+  }
 }
