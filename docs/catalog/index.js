@@ -5,14 +5,35 @@ import {
   pageLoader
 } from "catalog";
 
+const catalogTitle = "RSUIKit";
+
 
 const markdownLoader = page => pageLoader(() => import(`./${page}.md`));
 const jsxLoader = page => pageLoader(() => import(`./${page}.jsx`));
 
-const pages = [{
+const pages = [
+  {
     path: "/",
+    title: "Introduction",
+    content: markdownLoader("intro")
+  },
+  {
+    path: "/dev-status",
+    title: "Development status",
+    content: markdownLoader("dev-status"),
+  },  
+  {
     title: "Get Started",
-    content: markdownLoader("GetStarted")
+    pages:[{
+      path: "/get-started/install",
+      title: "Installation",
+      content: markdownLoader("get-started/install")
+    },
+    {
+      path: "/get-started/rsuikit-starter-app",
+      title: "RSUIKit starter app",
+      content: markdownLoader("get-started/rsuikit-starter-app")
+    }],    
   },
   {  
     title: "Components",
@@ -80,7 +101,7 @@ const pages = [{
 ];
 
 ReactDOM.render( 
-<Catalog title="React Semantic UIKit"
+<Catalog title={catalogTitle}
   pages = {
     pages
   }
