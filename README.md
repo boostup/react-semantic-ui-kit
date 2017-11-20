@@ -14,7 +14,7 @@ npm install @source360/react-semantic-ui-kit --save
 
 [For more information, please visit the documentation](http://localhost:4000/#/) (the doc app needs to be started, see section 'documentation').
 
-### Documentation
+## Documentation
 
 Starting the documentation
 ```bash {cmd=true}
