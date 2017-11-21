@@ -1,4 +1,7 @@
 import ImageLoader from './ImageLoader/index';
-import Fancy from './Fancy/index';
+import ElementFader from './ElementFader/index';
 
-export default ImageLoader;
+export {
+    ImageLoader, 
+    ElementFader
+}

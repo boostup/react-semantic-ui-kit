@@ -10,18 +10,17 @@ import { Transition } from 'semantic-ui-react'
 
 export default class ElementFader extends Component {
 
-
   constructor() {
     super();
     this.state = { visible: false };
   }
 
   toggleVisibility() {
-    this.setState({ visible: !this.state.visible })
+    this.setState({ visible: !this.state.visible });
   }
 
   componentDidMount() {
-    this.toggleVisibility()
+    this.toggleVisibility();
   }
 
   render() {
