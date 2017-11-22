@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ElementFader from '../elementfader/ElementFader'
+import ElementFader from '../../00-atoms/ElementFader/'
 import { Visibility } from 'semantic-ui-react'
 
 export default class ImageLoader extends Component {
