@@ -1,6 +1,7 @@
 import _$ from 'jquery';
 import React from 'react';
-import ReactDOM, { TestUtils } from 'react-dom';
+import ReactDOM from 'react-dom';
+import TestUtils from 'react-dom/test-utils';
 import { JSDOM } from 'jsdom';
 import chai, { expect } from 'chai';
 import chaiJquery from 'chai-jquery';
@@ -14,6 +15,7 @@ const $ = _$(window);
 chaiJquery(chai, chai.util, $);
 
 function renderComponent(ComponentClass, props = {}, state = {}) {
+
   const componentInstance =  TestUtils.renderIntoDocument(
     <ComponentClass {...props} />
   );
