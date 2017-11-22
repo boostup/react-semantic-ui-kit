@@ -49,7 +49,7 @@
   "scripts": {
     "postinstall": "echo 'installing documentation for UI kit' && cd docs/ && npm install",
     "start-doc": "cd docs/ && npm run catalog-start",
-    "test": "NODE_ENV=test mocha --require babel-core/register --require ./test/test_helper.js ./src/**/*test.js",
+    "test": "NODE_ENV=test mocha --require babel-core/register --require ./test/test_helper.js ./src/**/*spec.js",
     "test:watch": "npm run test -- --watch",
     "start": "webpack --watch",
     "build": "webpack"
