@@ -39,11 +39,18 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1"
+    "babel-preset-env": "^1.5.1",
+    "chai": "^4.1.2",
+    "chai-jquery": "^2.0.0",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.4.0",
+    "mocha": "^4.0.1"
   },
   "scripts": {
     "postinstall": "echo 'installing documentation for UI kit' && cd docs/ && npm install",
     "start-doc": "cd docs/ && npm run catalog-start",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js ./src/**/*test.js",
+    "test:watch": "npm run test -- --watch",
     "start": "webpack --watch",
     "build": "webpack"
   }
