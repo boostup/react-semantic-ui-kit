@@ -5,8 +5,9 @@ import {
   pageLoader
 } from "catalog";
 
-const catalogTitle = "RSUIKit";
+import UnderConstruction from "./UnderConstruction";
 
+const catalogTitle = "RSUIKit";
 
 const markdownLoader = page => pageLoader(() => import(`./${page}.md`));
 const jsxLoader = page => pageLoader(() => import(`./${page}.jsx`));
@@ -15,7 +16,7 @@ const pages = [
   {
     path: "/",
     title: "Introduction",
-    content: markdownLoader("intro")
+    content: pageLoader(() => import("./intro.md"))
   },
   {
     path: "/dev-status",
@@ -40,9 +41,9 @@ const pages = [
         content: markdownLoader("components/AvailableProps")
       },
       {
-        path: "/components/elementloader",
-        title: "ElementLoader",
-        content: markdownLoader("components/ElementLoader")
+        path: "/components/elementfader",
+        title: "ElementFader",
+        content: markdownLoader("components/ElementFader")
       },
       {
         path: "/components/hyperlinkable",
@@ -94,6 +95,7 @@ const pages = [
 
 ReactDOM.render( 
 <Catalog title={catalogTitle}
+  imports = {{UnderConstruction}}
   pages = {
     pages
   }

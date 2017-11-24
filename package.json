@@ -27,31 +27,39 @@
     "react": "^16.1.1"
   },
   "dependencies": {
+    "catalog": "^3.1.5",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "semantic-ui-react": "^0.76.0",
-    "webpack": "^3.8.1"
+    "semantic-ui-react": "^0.76.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.1",
     "chai": "^4.1.2",
     "chai-jquery": "^2.0.0",
+    "clean-webpack-plugin": "^0.1.17",
     "jquery": "^3.2.1",
     "jsdom": "^11.4.0",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "raw-loader": "^0.5.1",
+    "uglifyjs-webpack-plugin": "^1.1.1",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^2.9.1",
+    "webpack-merge": "^4.1.1"
   },
   "scripts": {
-    "postinstall": "echo 'installing documentation for UI kit' && cd docs/ && npm install",
-    "start-doc": "cd docs/ && npm run catalog-start",
     "test": "NODE_ENV=test mocha --require babel-core/register --require ./test/test_helper.js ./src/**/*spec.js",
     "test:watch": "npm run test -- --watch",
-    "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "analyse": "webpack --profile --json > stats.json --config webpack.analyse.js",
+    "catalog-start": "catalog start",
+    "catalog-build": "catalog build"
   }
 }
