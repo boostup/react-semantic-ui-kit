@@ -24,7 +24,7 @@ npm install @source360/react-semantic-ui-kit --save
 ## Documentation
 
 ### Prod
-The official UI kit documentation is available [here.](https://boostup.github.io/react-semantic-ui-kit/)
+[The official RSUIKit documentation is available here.](https://boostup.github.io/react-semantic-ui-kit/)
 
 
 ### Dev
