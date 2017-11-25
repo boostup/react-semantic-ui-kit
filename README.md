@@ -4,6 +4,11 @@
 
 [Please have a look at the wiki sections such as _Motivation_, _Vision_ or _Roadmap_ to get an idea as to why this repo even exists!](https://github.com/boostup/react-semantic-ui-kit/wiki)
 
+## RSUIKit app starter
+The [RSUIKit app starter](https://github.com/boostup/RSUIKit-app-starter) is a repo to quickly get started with app development using RSUIKit.  It:
+- was bootstrapped with Create React App
+- includes this UI Kit as an npm dependency
+
 ## Current status
 Please refer to the [Development status](https://github.com/boostup/react-semantic-ui-kit/wiki/Development-status) page of this repo's wiki.
 
@@ -18,18 +23,30 @@ npm install @source360/react-semantic-ui-kit --save
 
 ## Documentation
 
-Starting the documentation
+### Prod
+The official UI kit documentation is available [here.](https://boostup.github.io/react-semantic-ui-kit/)
+
+
+### Dev
+
+Starting the documentation in development mode: 
 ```bash {cmd=true}
-npm run start-doc
+npm run catalog-start
+```
+_Look for instructions in your terminal to access the doc from your browser._
+
+
+### Build
+
+Building the documentation is as simple as:
+
+```bash {cmd=true}
+npm run catalog-build
 ```
 
-Look for console instructions on how to access the doc on your browser.
+### Publishing
+Pushing the ```/docs```directory to this github repository's master branch. [See github help for further details on how this works.](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch)
 
-
-## RSUIKit app starter
-The [RSUIKit app starter](https://github.com/boostup/RSUIKit-app-starter) is repo which:
-- was bootstrapped with Create React App
-- includes this UI Kit as an npm dependency
 
 
 ## Contributing

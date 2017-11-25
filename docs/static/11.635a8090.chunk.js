@@ -1,0 +1,2 @@
+webpackJsonp([11],{590:function(e,t,n){var o=n(6),a=n(32),r=n(136).PageRenderer;r.__esModule&&(r=r.default);var s=a({displayName:"WrappedPageRenderer",getInitialState:function(){return{content:n(604)}},componentWillMount:function(){},render:function(){return o.createElement(r,Object.assign({},this.props,{content:this.state.content}))}});s.__catalog_loader__=!0,e.exports=s},604:function(e,t){e.exports="prototype on [Codesandbox](https://codesandbox.io/s/40vx21xlp0)"}});
+//# sourceMappingURL=11.635a8090.chunk.js.map

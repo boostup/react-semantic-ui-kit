@@ -60,6 +60,6 @@
     "build": "webpack",
     "analyse": "webpack --profile --json > stats.json --config webpack.analyse.js",
     "catalog-start": "catalog start",
-    "catalog-build": "catalog build"
+    "catalog-build": "catalog build --u https://boostup.github.io/react-semantic-ui-kit/ --o ./docs"
   }
 }

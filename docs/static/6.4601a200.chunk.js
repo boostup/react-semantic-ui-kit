@@ -1,0 +1,2 @@
+webpackJsonp([6],{595:function(e,t,n){var o=n(6),r=n(32),a=n(136).PageRenderer;a.__esModule&&(a=a.default);var i=r({displayName:"WrappedPageRenderer",getInitialState:function(){return{content:n(609)}},componentWillMount:function(){},render:function(){return o.createElement(a,Object.assign({},this.props,{content:this.state.content}))}});i.__catalog_loader__=!0,e.exports=i},609:function(e,t){e.exports="\nthis is LoaderWidget.md"}});
+//# sourceMappingURL=6.4601a200.chunk.js.map
