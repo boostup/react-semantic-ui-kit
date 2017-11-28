@@ -11,4 +11,7 @@ state: {foo: 0, bar: "some string", foobar: [4,"3",2,1]}
 
 ## API
 
- - __props__: any
+```hint|neutral
+**data**: any
+The variable to displayed.
+```
