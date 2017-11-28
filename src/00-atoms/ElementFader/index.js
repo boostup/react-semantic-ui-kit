@@ -1,13 +1,6 @@
 import React, { Component } from 'react'
 import { Transition } from 'semantic-ui-react'
 
-/**
- *  <ElementFader></ElementFader> => will manage internal state.visible
- *  <ElementFader visible={true} => makes element always Visible; no fade transition
- *  <ElementFader visible={false} => makes element always Invisible; no fade transition
- *  <ElementFader visible={someValue} => transition will fade in if someValue === true, or fade out if someValue === false
- */
-
 export default class ElementFader extends Component {
 
   constructor() {
