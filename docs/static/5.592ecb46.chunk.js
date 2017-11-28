@@ -1,2 +1,0 @@
-webpackJsonp([5],{1287:function(e,n,t){var o=t(0),r=t(57),a=t(321).PageRenderer;a.__esModule&&(a=a.default);var c=r({displayName:"WrappedPageRenderer",getInitialState:function(){return{content:t(1301)}},componentWillMount:function(){},render:function(){return o.createElement(a,Object.assign({},this.props,{content:this.state.content}))}});c.__catalog_loader__=!0,e.exports=c},1301:function(e,n){e.exports="```react\n<UnderConstruction />\n```\n\nprototype on [Codesandbox](https://codesandbox.io/s/7jql2pwq76)"}});
-//# sourceMappingURL=5.592ecb46.chunk.js.map
