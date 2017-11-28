@@ -30,6 +30,7 @@
     "catalog": "^3.1.5",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
+    "react-json-view": "^1.13.3",
     "semantic-ui-react": "^0.76.0"
   },
   "devDependencies": {
@@ -45,6 +46,7 @@
     "chai": "^4.1.2",
     "chai-jquery": "^2.0.0",
     "clean-webpack-plugin": "^0.1.17",
+    "ignore-styles": "^5.0.1",
     "jquery": "^3.2.1",
     "jsdom": "^11.4.0",
     "mocha": "^4.0.1",
@@ -55,7 +57,7 @@
     "webpack-merge": "^4.1.1"
   },
   "scripts": {
-    "test": "NODE_ENV=test mocha --require babel-core/register --require ./test/test_helper.js ./src/**/*spec.js",
+    "test": "NODE_ENV=test mocha --require ignore-styles --require babel-core/register --require ./test/test_helper.js ./src/**/*spec.js",
     "test:watch": "npm run test -- --watch",
     "build": "webpack",
     "analyse": "webpack --profile --json > stats.json --config webpack.analyse.js",

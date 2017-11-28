@@ -6,6 +6,7 @@ import {
 } from "catalog";
 
 import UnderConstruction from "./UnderConstruction";
+import AvailableProps from "../src/00-atoms/AvailableProps"
 
 const catalogTitle = "RSUIKit";
 
@@ -95,7 +96,10 @@ const pages = [
 
 ReactDOM.render( 
 <Catalog title={catalogTitle}
-  imports = {{UnderConstruction}}
+  imports = {{
+    UnderConstruction,
+    AvailableProps
+  }}
   pages = {
     pages
   }
