@@ -21,6 +21,10 @@ module.exports = {
   ],
   module: {
     rules: [{
+      test: /\.css$/,
+      use: [ 'style-loader', 'css-loader' ]
+    },
+    {
       test: /\.js$/,
       include: path.resolve(__dirname, 'src'),
       exclude: /(node_modules|bower_components|build)/,
@@ -34,6 +38,7 @@ module.exports = {
   },
   externals: {
     'react': 'commonjs react', // this line is just to use the React dependency of our parent-testing-project instead of using our own React.
-    'semantic-ui-react': 'commonjs semantic-ui-react'
+    'semantic-ui-react': 'commonjs semantic-ui-react',
+    'lodash': 'commonjs lodash'
   }
 };
