@@ -4,6 +4,9 @@
 /node_modules
 /docs/node_modules
 
+# bundle
+stats.json
+
 # testing
 /coverage
 
