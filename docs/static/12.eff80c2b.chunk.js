@@ -1,2 +1,0 @@
-webpackJsonp([12],{589:function(e,n,t){var r=t(6),o=t(32),a=t(136).PageRenderer;a.__esModule&&(a=a.default);var c=o({displayName:"WrappedPageRenderer",getInitialState:function(){return{content:t(603)}},componentWillMount:function(){},render:function(){return r.createElement(a,Object.assign({},this.props,{content:this.state.content}))}});c.__catalog_loader__=!0,e.exports=c},603:function(e,n){e.exports="```react\n<UnderConstruction />\n```\n\nthis is ElementFader.md"}});
-//# sourceMappingURL=12.eff80c2b.chunk.js.map
