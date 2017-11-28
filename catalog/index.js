@@ -8,11 +8,13 @@ import {
 import UnderConstruction from "./UnderConstruction";
 import AvailableProps from "../src/00-atoms/AvailableProps";
 import ElementFader from "../src/00-atoms/ElementFader";
+import ImageLoader from "../src/01-molecules/ImageLoader";
 
 const imports = {
   UnderConstruction,
   AvailableProps,
   ElementFader,
+  ImageLoader,
 }
 
 
