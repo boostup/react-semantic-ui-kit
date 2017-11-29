@@ -32,10 +32,6 @@ export default class ImageLoader extends Component {
 
     return (
       <Visibility fireOnMount onUpdate={this.handleVisible}>
-        {/*Do not remove this 'useless' div.  It helps the Visibility Element to calculate as it gives height
-          to an otherwise 'display:none' img element until image is loaded and provides height.
-        */}
-        {visibility === true ? '' : <div style={{}}>Image load not started</div>}
         <ElementFader visible={loaded && visibility}>
           <img {...props} alt="" />
         </ElementFader>
