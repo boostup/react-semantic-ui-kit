@@ -48,7 +48,7 @@
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
     "ignore-styles": "^5.0.1",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "jsdom": "^11.4.0",
     "mocha": "^4.0.1",
     "raw-loader": "^0.5.1",
